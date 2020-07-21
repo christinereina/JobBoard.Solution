@@ -1,5 +1,3 @@
-using Systems;
-
 namespace JobBoard.Models
 {
   public class JobOpening

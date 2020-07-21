@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Job Board</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Job Board</h1>
+      <h2>Fill out the form below to create a new job posting</h2>
+      <div class="form-group">
+        <form action="/jobs" method="post">
+          <label for="title">Job Title: </label>
+          <input id="title" name="title" type="text"><br>
+          <label for="description">Job Description: </label>
+          <input id="description" name="description" type="text"><br>
+          <label for="contactInfoName">Contact Name: </label>
+          <input id="contactInfoName" name="contactInfoName" type="text"><br>
+          <label for="contactInfoEmail">Contact Email: </label>
+          <input id="contactInfoEmail" name="contactInfoEmail" type="text"><br>
+          <label for="contactInfoPhone">Contact Phone Number: </label>
+          <input id="contactInfoPhone" name="contactInfoPhone" type="text"><br>
+          <button type="submit">Post Job</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
